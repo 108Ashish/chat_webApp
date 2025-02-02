@@ -50,3 +50,31 @@
     overflow-y:scroll ;  
   
 }
+.friend img {
+    width: 30px;
+    aspect-ratio: 1/1;  /* Ensures the image is square */
+    border-radius: 50%;  /* This makes the image circular */
+}
+.friend {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 13px;
+    justify-content: flex-end; 
+}
+.friend div{
+    display:flex;
+    flex-direction:column;
+}
+.friend span{
+    color:#9f9f9f;
+    font-size: 11px;
+}
+.friend:hover{
+    background-color:#077EFF;
+}
+.friend:hover span{
+    color:white;
+}
