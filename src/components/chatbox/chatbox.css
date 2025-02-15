@@ -83,15 +83,15 @@ r-msg{
 .msg{
     color: white;
     background-color: #077EFF;
-    padding: 8px 12px;  /* Added horizontal padding for better spacing */
+    padding: 8px 12px;  
     max-width: 200px;
-    font-size: 12px;  /* Increased font size */
-    font-weight: 400;  /* Slightly bolder text for readability */
-    border-radius: 8px 8px 8px 0px;  /* Adjusted for a typical chat bubble */
-    margin-bottom: 10px;  /* Reduced margin for better spacing */
-    word-wrap: break-word;  /* Ensures text wraps correctly */
+    font-size: 12px;  
+    font-weight: 400;  
+    border-radius: 8px 8px 8px 0px;  
+    margin-bottom: 10px;  
+    word-wrap: break-word; 
 }
 .r-msg .msg{
     border-radius:8px 8px 8px 0px;
     
-}
+} 
